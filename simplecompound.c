@@ -6,7 +6,7 @@ int main()
     int p, t;
     float r, si, amount, ci;
 
-    printf("Enter prinipal, time and rate of interest \n");
+    printf("Enter principal, time and rate of interest \n");
 
     scanf("%d%d%f", &p, &t, &r);
     si = p * t * r / 100;
