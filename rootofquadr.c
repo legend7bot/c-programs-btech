@@ -15,7 +15,7 @@ int main()
         printf("Root-1 = %.2lf and Root-2 = %.2lf", root1, root2);
     }
 
-    else if (discriminant == 0)
+    if (discriminant == 0)
     {
         root1 = root2 = -b / (2 * a);
         printf("Root-1 = Root-2 = %.2lf;", root1);
