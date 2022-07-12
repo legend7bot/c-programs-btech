@@ -17,7 +17,9 @@ int main()
     strcompare(str1, str2);
     strconcat(str1, str2);
     strcopy(str1, str2);
-    
+    printf("\033[1;33m");
+    printf("\n Harsh Vardhan Sharma \n IT-C \n 119-ITC-21");
+
     return 0;
 }
 
@@ -42,7 +44,8 @@ void strconcat(char str1[], char str2[])
     printf("\nAfter concatenating string-2 to string-1, string-1 is: %s\n", str1);
 }
 
-void strcompare(char str1[], char str2[]){
+void strcompare(char str1[], char str2[])
+{
     int result;
     result = strcmp(str1, str2);
     if (result == 0)
